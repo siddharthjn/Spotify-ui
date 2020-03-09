@@ -1,0 +1,77 @@
+body {
+    font-family: Proxima Nova;
+    box-sizing: border-box;
+    background-color: black;
+
+}
+
+#sidebar {
+    float: left;
+    width: 20%;
+    background-color: black;
+    color: white;
+    height: 100%;
+}
+
+#logo {
+    width: 50%;
+}
+
+.navLinks {
+    list-style-type: none;
+}
+
+#content {
+    color: white;
+    float: left;
+    background-color: black;
+    height: 100%;
+    width: 80%;
+}
+
+.sectionPlaylist {
+    width: 100%;
+    padding: 15px 20px;
+    clear: left;
+    margin-bottom: 15px;
+}
+
+.sectionPlaylist ::after {
+    clear: left;
+}
+
+.sectionHeader {
+    float: left;
+    width: 100%;
+}
+
+.card {
+    width: 13%;
+    height: 35%;
+    float: left;
+    margin: 25px 10px;
+    background-color: rgb(41, 37, 37);
+    border-radius: 5px;
+    /* 5px rounded corners */
+}
+
+.cardContent {
+    margin: 10px 15px;
+}
+
+.cardHeader {
+    margin-bottom: 0px;
+    font-weight: lighter;
+}
+
+.cardText {
+    margin-top: 7px;
+    font-size: small;
+}
+
+
+.imgPlaylist {
+    height: 60%;
+    width: 100%;
+    padding-top: 10px;
+}
