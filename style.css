@@ -2,7 +2,7 @@ body {
     font-family: Proxima Nova;
     box-sizing: border-box;
     background-color: black;
-
+    color: white;
 }
 
 #sidebar {
@@ -74,4 +74,36 @@ body {
     height: 60%;
     width: 100%;
     padding-top: 10px;
+}
+
+#controls {
+    background-color: #333;
+    /* overflow: hidden; */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.controlContent {
+    margin: 5px 10px;
+}
+
+#controlImg {
+    float: left;
+    width: 55px;
+    height: 55px;
+    padding: 12px;
+}
+
+#controlText {
+    float: left;
+    width: 20%;
+}
+
+#songName {
+    margin-bottom: 0px;
+}
+
+#artistName {
+    margin-top: 5px;
 }
