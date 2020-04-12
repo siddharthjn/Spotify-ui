@@ -6,11 +6,7 @@ body {
 }
 
 #sidebar {
-    float: left;
-    width: 20%;
-    background-color: black;
-    color: white;
-    height: 100%;
+    display: none;
 }
 
 #logo {
@@ -34,6 +30,8 @@ body {
     padding: 15px 20px;
     clear: left;
     margin-bottom: 15px;
+    overflow: auto;
+    white-space: nowrap;
 }
 
 .sectionPlaylist ::after {
@@ -41,23 +39,10 @@ body {
 }
 
 .sectionHeader {
-    float: left;
     width: 100%;
 }
 
-.card {
-    width: 13%;
-    height: 35%;
-    float: left;
-    margin: 25px 10px;
-    background-color: rgb(41, 37, 37);
-    border-radius: 5px;
-    /* 5px rounded corners */
-}
 
-.cardContent {
-    margin: 10px 15px;
-}
 
 .cardHeader {
     margin-bottom: 0px;
@@ -70,15 +55,141 @@ body {
 }
 
 
+.mobileControls {
+    background-color: #333;
+    margin-left: -10px;
+    /* overflow: hidden; */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+#mControlImg {
+    float: left;
+    width: 15%;
+    height: 55px;
+}
+
+#controlText {
+    float: left;
+    width: 85%
+}
+
+#mSongName {
+    float: left;
+    width: 50%;
+}
+
+.fa-play {
+    width: 50%;
+    margin-top: 16px
+}
+
+#helperButtons {
+    margin: 25px 200px 25px 20px;
+    float: left;
+}
+
+.heartCast {
+    margin-right: 5px;
+}
+
+#songName {
+    margin-bottom: 0px;
+}
+
+#artistName {
+    margin-top: 5px;
+}
+
+#musicControls {
+    float: left;
+}
+
+.musicButtons {
+    font-size: 20px;
+    margin: 10px 25px;
+}
+
+.slider {
+    margin-top: 15px;
+    clear: left;
+    -webkit-appearance: none;
+    width: 100%;
+    height: 5px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.slider:hover {
+    opacity: 1;
+}
+
+
+.card {
+    width: 40%;
+    height: 20%;
+    margin: 25px 5px;
+    background-color: rgb(41, 37, 37);
+    border-radius: 5px;
+    display: inline-block;
+}
+
 .imgPlaylist {
+    height: 100%;
+    width: 100%;
+}
+
+.cardContent {
+    margin: 0px 0px;
+}
+
+/* .cardContent {
+    margin: 10px 15px;
+} */
+
+/* .card {
+    width: 13%;
+    height: 35%;
+    float: left;
+    margin: 25px 10px;
+    background-color: rgb(41, 37, 37);
+    border-radius: 5px;
+} */
+
+/* #sidebar {
+    float: left;
+    width: 20%;
+    background-color: black;
+    color: white;
+    height: 100%;
+} */
+
+/* .imgPlaylist {
     height: 60%;
     width: 100%;
     padding-top: 10px;
 }
 
+    .sectionPlaylist {
+    width: 100%;
+    padding: 15px 20px;
+    clear: left;
+    margin-bottom: 15px;
+}
+
+.sectionHeader {
+    float: left;
+    width: 100%;
+}
+
 #controls {
     background-color: #333;
-    /* overflow: hidden; */
+    /* overflow: hidden; 
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -97,7 +208,16 @@ body {
 
 #controlText {
     float: left;
-    width: 20%;
+    max-width: 20%;
+}
+
+#helperButtons {
+    margin: 25px 200px 25px 20px;
+    float: left;
+}
+
+.heartCast {
+    margin-right: 5px;
 }
 
 #songName {
@@ -107,3 +227,13 @@ body {
 #artistName {
     margin-top: 5px;
 }
+
+#musicControls {
+    float: left;
+}
+
+.musicButtons {
+    font-size: 20px;
+    margin: 10px 25px;
+}
+ */
