@@ -83,7 +83,20 @@ body {
 
 .fa-play {
     width: 50%;
-    margin-top: 16px
+    margin-top: 16px;
+    text-align: right;
+    margin-left: -7%;
+}
+
+#nav-footer {
+    margin-top: 10%;
+    clear: left;
+    border-top: 1px solid black;
+    text-align: center;
+}
+
+.footerPadding {
+    padding-right: 5%;
 }
 
 #helperButtons {
